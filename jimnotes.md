@@ -2,6 +2,15 @@
 
    SD Card: EDK2 -> BOOTAA64.efi (sys/arch/stand/efiboot) -USB Stick-> Kernel (From OBSD miniroot)
    
+
+
+
+
+EDK2 - Built on Aarch64 pi
+Firefly SDK - built on Ubuntu 2018 VM
+OBSD EFI Loader - built on OBSD pi
+OBSD Kernel - built on OBSD pi
+
    
    
    Building EDK2 (Bootloader firmware)
