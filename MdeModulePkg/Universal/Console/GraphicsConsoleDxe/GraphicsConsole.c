@@ -960,6 +960,10 @@ GraphicsConsoleConOutOutputString (
 
   Status = EFI_SUCCESS;
 
+  if (gBS->RaiseTPL == NULL)
+    return EFI_SUCCESS;
+
+
   OldTpl = gBS->RaiseTPL (TPL_NOTIFY);
   //
   // Current mode
